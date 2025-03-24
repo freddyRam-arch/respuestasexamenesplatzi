@@ -1,25 +1,77 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cursos y Exámenes</title>
-    <meta name="google-site-verification" content="5zDVbte4K-kM2KJEf4_BYhQQ-W_sZmjdJvM52xnJHlE" />
-    <link rel="stylesheet" href="styles.css">
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cursos y Exámenes</title>
+        <meta name="description" content="Encuentra los mejores cursos y exámenes para certificarte en diversas áreas. Aprende y prepárate con nuestro contenido especializado.">
+        <!-- Canonical URL -->
+        <link rel="canonical" href="https://freddyram-arch.github.io/examenescursos">
+        
+        
+        <!-- Open Graph Meta Tags -->
+        <meta property="og:title" content="Cursos y Exámenes">
+        <meta property="og:description" content="Encuentra los mejores cursos y exámenes para certificarte en diversas áreas. Aprende y prepárate con nuestro contenido especializado.">
+        <meta property="og:image" content="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIF2sr85srWdb_IoDS1COBwD5RPfMB8pkIIg&s">
+        <meta property="og:url" content="https://freddyram-arch.github.io/examenescursos">
+        <meta property="og:type" content="website">
+        
+        <!-- Twitter Card Meta Tags -->
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:title" content="Cursos y Exámenes">
+        <meta name="twitter:description" content="Encuentra los mejores cursos y exámenes para certificarte en diversas áreas.">
+        <meta name="twitter:image" content="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIF2sr85srWdb_IoDS1COBwD5RPfMB8pkIIg&s">
+        
+        <meta name="google-site-verification" content="5zDVbte4K-kM2KJEf4_BYhQQ-W_sZmjdJvM52xnJHlE">
+        <link rel="stylesheet" href="styles.css">
+        <!-- Datos estructurados JSON-LD -->
+        <script type="application/ld+json">
+            {
+                "@context": "https://schema.org",
+                "@type": "Course",
+                "name": "Cursos y Exámenes Online",
+                "description": "Accede a cursos y exámenes en línea para mejorar tus habilidades y obtener certificaciones reconocidas.",
+                "provider": {
+                    "@type": "Organization",
+                    "name": "Cursos y Exámenes",
+                    "url": "https://tu-sitio.com"
+                }
+            }
+        </script>
+    </head>
 <body>
     <nav>
         <ul>
             <li><a href="#">Inicio</a></li>
             <li><a href="#cursos">Cursos</a></li>
             <li><a href="#contacto">Contacto</a></li>
+            <li><a href="#beneficios">Beneficios</a></li>
+            <li><a href="#faqs">Preguntas Frecuentes</a></li>
         </ul>
     </nav>
     <header>
         <h1>Cursos y Exámenes</h1>
+        <p>Descubre una amplia variedad de cursos y certificaciones para potenciar tu carrera. Aprende a tu ritmo y certifícate en áreas clave.</p>
         <input type="text" id="search" placeholder="Buscar cursos..." onkeyup="filterCourses()">
     </header>
     <main>
+
+        <section id="introduccion">
+            <h2>¿Por qué elegir nuestros cursos?</h2>
+            <p>Ofrecemos cursos diseñados por expertos en distintas disciplinas, con material actualizado y pruebas para validar tus conocimientos. Con nuestra plataforma, puedes aprender desde cualquier lugar y obtener certificaciones reconocidas.</p>
+        </section>
+
+        <section id="beneficios">
+            <h2>Beneficios de nuestros cursos</h2>
+            <ul>
+                <li>📚 Contenido de calidad actualizado</li>
+                <li>🎓 Certificación al completar cada curso</li>
+                <li>💻 Acceso desde cualquier dispositivo</li>
+                <li>🕒 Aprende a tu propio ritmo</li>
+                <li>📄 Material de estudio descargable</li>
+            </ul>
+        </section>
+
         <section id="cursos" class="courses">
         </section>
     </main>
